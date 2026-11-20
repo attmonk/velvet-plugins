@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "attmonk",
+  "plugins": [
+    {
+      "id": "attmonk-user-data",
+      "name": "ATTMonk User Data",
+      "description": "Encrypted account persistence, playback progress, playlists, and cross-device user-owned data for Velvet.",
+      "version": "0.2.0",
+      "velvetApiVersion": "1",
+      "modules": [
+        "user-data"
+      ],
+      "package": "@attmonk/velvet-user-data",
+      "source": {
+        "type": "release-asset",
+        "url": "https://github.com/attmonk/velvet-plugin-user-data/releases/download/v0.2.0/attmonk-velvet-user-data-0.2.0.tgz",
+        "sha256": "8cb2de394f4b2f1a20e987932305facdf08eea69e99558ce718a0abb9d2123f2"
+      }
+    }
+  ]
+}
